@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // may need to change the url
-const url = 'http://127.0.0.1:5000';
+const url = 'https://replanning-backend.herokuapp.com';
 
 export async function sendData(details) {
     const stages = ["cm0","cmx","cn0","cn1","cn2","ct1","ct1a","ct2","ct2b",
